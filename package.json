@@ -1,0 +1,39 @@
+{
+  "name": "multi-db-connectors",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "description": "connector to convert JSON to database specific query (fork of node-database-connectors 1.7.2 with BigQuery fixes)",
+  "main": "ConnectorIdentifier.js",
+  "files": [
+    "*.js",
+    "*.pem",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Harshil9045/multi-db-connectors.git"
+  },
+  "author": "Darshit Shah <darshit@yuktianalytics.com>",
+  "contributors": [
+    "Harshil <harshil@cepheiinfotech.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/Harshil9045/multi-db-connectors/issues"
+  },
+  "dependencies": {
+    "@apla/clickhouse": "*",
+    "@google-cloud/bigquery": "^7.9.0",
+    "cassandra-driver": "*",
+    "mssql": "*",
+    "mysql": "*",
+    "snowflake-sdk": "*",
+    "pg": "8.7.3"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "homepage": "https://github.com/Harshil9045/multi-db-connectors#readme"
+}
